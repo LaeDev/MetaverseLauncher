@@ -1,0 +1,36 @@
+{
+  "$schema": "file:///C:/Users/Lae/Desktop/Distro/RootDistro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Metaverse Release (Minecraft 1.20.1)",
+    "description": "Metaverse Release Running Minecraft 1.20.1 (Fabric v0.15.11)",
+    "icon": "icon.png",
+    "address": "metaverseseniorclub.kro.kr:25565",
+    "discord": {
+      "shortId": "Metaverse Server",
+      "largeImageText": "Metaverse Release (Minecraft 1.20.1)",
+      "largeImageKey": "icon"
+    },
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "supported": ">=17",
+      "suggestedMajor": 17,
+      "platformOptions": [
+        {
+          "platform": "darwin",
+          "architecture": "arm64",
+          "distribution": "CORRETTO"
+        }
+      ],
+      "ram": {
+        "recommended": 8192,
+        "minimum": 8192
+      }
+    }
+  },
+  "fabric": {
+    "version": "0.15.11"
+  },
+  "untrackedFiles": []
+}
