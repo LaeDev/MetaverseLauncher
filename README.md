@@ -41,7 +41,7 @@
 
 #### 최신 릴리즈
 
-[![](https://img.shields.io/github/release/LaeDev/MetaverseLauncher.svg?style=flat-square)](https://github.com/LaeDev/MetaverseLauncher/releases/latest)
+[![](https://img.shields.io/github/v/release/LaeDev/MetaverseLauncher)](https://github.com/LaeDev/MetaverseLauncher/releases/latest)
 
 
 **지원하는 플랫폼**
