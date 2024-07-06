@@ -35,7 +35,7 @@
 
 ## 다운로드
 
-[깃허브 릴리즈](https://github.com/dscalzi/HeliosLauncher/releases) 에서 다운받으실수 있습니다.
+[깃허브 릴리즈](https://github.com/LaeDev/MetaverseLauncher/releases) 에서 다운받으실수 있습니다.
 
 #### 최신 릴리즈
 
