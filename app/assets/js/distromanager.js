@@ -4,7 +4,7 @@ const ConfigManager = require('./configmanager')
 
 // Old WesterosCraft url.
 // exports.REMOTE_DISTRO_URL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
-exports.REMOTE_DISTRO_URL = 'https://raw.githubusercontent.com/LaeDev/MetaverseLauncher/distro/MetaverseRelease.json'
+exports.REMOTE_DISTRO_URL = 'http://metaversedistro.kro.kr/MetaverseRelease.json'
 
 const api = new DistributionAPI(
     ConfigManager.getLauncherDirectory(),
