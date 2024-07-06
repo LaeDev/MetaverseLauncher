@@ -14,25 +14,22 @@
 
 ## 기능
 
-* 🔒 Full account management.
-  * Add multiple accounts and easily switch between them.
-  * Microsoft (OAuth 2.0) + Mojang (Yggdrasil) authentication fully supported.
-  * Credentials are never stored and transmitted directly to Mojang.
-* 📂 Efficient asset management.
-  * Receive client updates as soon as we release them.
-  * Files are validated before launch. Corrupt or incorrect files will be redownloaded.
-* ☕ **Automatic Java validation.**
-  * If you have an incompatible version of Java installed, we'll install the right one *for you*.
-  * You do not need to have Java installed to run the launcher.
-* 📰 News feed natively built into the launcher.
-* ⚙️ Intuitive settings management, including a Java control panel.
-* Supports all of our servers.
-  * Switch between server configurations with ease.
-  * View the player count of the selected server.
-* Automatic updates. That's right, the launcher updates itself.
-*  View the status of Mojang's services.
+* 🔒 **완전한 계정 관리.**
+  * 여러개의 계정 추가 및 쉽게 전환 가능.
+  * Microsoft (OAuth 2.0) + Mojang (Yggdrasil) 인증 완벽 지원.
+  * 자격 증명 정보는 Mojang에 직접 저장되거나 전송되지 않습니다.
+* 📂 **효율적인 에셋 관리.**
+  * 클라이언트 업데이트는 배포하자마자 받아볼 수 있습니다.
+  * 실행 전 파일 유효성 검사. 손상되거나 잘못된 파일은 다시 다운로드됩니다.
+* ☕ **자동 Java 유효성 검사.**
+  * 호환되지 않는 Java 버전이 설치되어 있으면, *당신을 위해* 올바른 버전을 설치해드립니다.
+  * 런처를 실행하기 위해 Java를 별도로 설치할 필요가 없습니다.
+* ⚙️ 직관적인 설정, Java 관리 패널 포함.
+* 자동 업데이트. 네, 런처가 스스로 업데이트됩니다.
+* Mojang 서비스의 상태를 확인할 수 있습니다.
 
-This is not an exhaustive list. Download and install the launcher to gauge all it can do!
+이 리스트는 모든 기능을 다루지 않습니다. 런처를 다운로드하여 모든 기능을 경험해보세요.
+
 
 #### 도움이 필요하신가요? 
 
