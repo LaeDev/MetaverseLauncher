@@ -39,19 +39,16 @@
 
 #### 최신 릴리즈
 
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases/latest)
+[![](https://img.shields.io/github/release/LaeDev/MetaverseLauncher.svg?style=flat-square)](https://github.com/LaeDev/MetaverseLauncher/releases/latest)
 
 
 **지원하는 플랫폼**
 
-[릴리즈](https://github.com/dscalzi/HeliosLauncher/releases) 탭에서 다운후, 본인의 시스템에 맞는 인스톨러를 선택하세요.
+[릴리즈](https://github.com/LaeDev/MetaverseLauncher/releases) 탭에서 다운후, 본인의 시스템에 맞는 인스톨러를 선택하세요.
 
 | 플랫폼 | 파일 |
 | -------- | ---- |
 | Windows x64 | `Metaverse-Launcher-setup-버전.exe` |
-| macOS x64 | `Metaverse-Launcher-setup-버전-x64.dmg` |
-| macOS arm64 | `Metaverse-Launcher-setup-버전-arm64.dmg` |
-| Linux x64 | `Metaverse-Launcher-setup-버전.AppImage` |
 
 ### Forked From Helios Launcher!
 
