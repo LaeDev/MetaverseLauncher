@@ -9,8 +9,8 @@
 
 <p align="center">Metaverse 디스코드 서버가 주최하는 모드 서버 런처입니다.</p>
 
-![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
-![Screenshot 2](https://i.imgur.com/x3B34n1.png)
+![Screenshot 1](https://media.discordapp.net/attachments/1093299185949872211/1259073449016557619/image.png?ex=668a5b06&is=66890986&hm=a65ccc31e576ac27ef66179a937a8af2a7d1a00388b5f634a18b8a721c80f830&=&format=webp&quality=lossless&width=550&height=311)
+![Screenshot 2](https://media.discordapp.net/attachments/1093299185949872211/1259073505522352248/image.png?ex=668a5b14&is=66890994&hm=19f06933ba5a65266919e029e5d3d896d05963d62021237df9ae72450d3353e8&=&format=webp&quality=lossless&width=550&height=310)
 
 ## 기능
 
