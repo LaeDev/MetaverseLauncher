@@ -1,0 +1,345 @@
+[ejs.landing]
+updateAvailableTooltip = "アップデート利用可能"
+usernamePlaceholder = "ユーザー名"
+usernameEditButton = "編集"
+settingsTooltip = "設定"
+serverStatus = "サーバー"
+serverStatusPlaceholder = "オフライン"
+mojangStatus = "Mojang ステータス"
+mojangStatusTooltipTitle = "サービス"
+mojangStatusNETitle = "必須ではない"
+newsButton = "ニュース"
+launchButton = "プレイ"
+launchButtonPlaceholder = "&#8226; サーバーが選択されていません"
+launchDetails = "お待ちください.."
+newsNavigationStatus = "{currentPage} / {totalPages}"
+newsErrorLoadSpan = "ニュースを確認中.."
+newsErrorFailedSpan = "ニュースの読み込みに失敗しました"
+newsErrorRetryButton = "再試行"
+newsErrorNoneSpan = "ニュースはありません"
+
+[ejs.login]
+loginCancelText = "キャンセル"
+loginSubheader = "Minecraft ログイン"
+loginEmailError = "* 無効な値"
+loginEmailPlaceholder = "メールアドレスまたはユーザー名"
+loginPasswordError = "* 必須"
+loginPasswordPlaceholder = "パスワード"
+loginForgotPasswordLink = "https://minecraft.net/password/forgot/"
+loginForgotPasswordText = "パスワードを忘れましたか？"
+loginRememberMeText = "ログイン情報を記憶"
+loginButtonText = "ログイン"
+loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
+loginNeedAccountText = "アカウントが必要ですか？"
+loginPasswordDisclaimer1 = "あなたのパスワードは直接Mojangに送信され、保存されません。"
+loginPasswordDisclaimer2 = "{appName}はMojang ABとは提携していません。"
+
+[ejs.loginOptions]
+loginOptionsTitle = "ログインオプション"
+loginWithMicrosoft = "Microsoftでログイン"
+loginWithMojang = "Mojangでログイン"
+cancelButton = "キャンセル"
+
+[ejs.overlay]
+serverSelectHeader = "利用可能なサーバー"
+serverSelectConfirm = "選択"
+serverSelectCancel = "キャンセル"
+accountSelectHeader = "アカウントを選択"
+accountSelectConfirm = "選択"
+accountSelectCancel = "キャンセル"
+
+[ejs.settings]
+navHeaderText = "設定"
+navAccount = "アカウント"
+navMinecraft = "Minecraft"
+navMods = "Mod"
+navJava = "Java"
+navLauncher = "ランチャー"
+navAbout = "情報"
+navUpdates = "アップデート"
+navDone = "完了"
+tabAccountHeaderText = "アカウント設定"
+tabAccountHeaderDesc = "新しいアカウントを追加するか、既存のアカウントを管理します。"
+microsoftAccount = "Microsoft"
+addMicrosoftAccount = "+ Microsoftアカウントを追加"
+mojangAccount = "Mojang"
+addMojangAccount = "+ Mojangアカウントを追加"
+minecraftTabHeaderText = "Minecraft設定"
+minecraftTabHeaderDesc = "ゲーム起動に関するオプション。"
+gameResolutionTitle = "ゲーム解像度"
+launchFullscreenTitle = "フルスクリーンで起動する。"
+autoConnectTitle = "起動時に自動的にサーバーに接続する。"
+launchDetachedTitle = "ランチャーから切り離してゲームプロセスを起動する。"
+launchDetachedDesc = "ゲームが切り離されていない場合、ランチャーを閉じるとゲームも終了します。"
+tabModsHeaderText = "Mod設定"
+tabModsHeaderDesc = "Modの有効化または無効化。"
+switchServerButton = "サーバーを切り替える"
+requiredMods = "必須Mod"
+optionalMods = "オプションのMod"
+dropinMods = "ドロップインMod"
+addMods = "Modを追加"
+dropinRefreshNote = "(F5でリフレッシュ)"
+shaderpacks = "シェーダーパック"
+shaderpackDesc = "シェーダーを有効または無効にします。注意：シェーダーは強力なセットアップでのみスムーズに動作します。ここでカスタムパックを追加できます。"
+selectShaderpack = "シェーダーパックを選択"
+tabJavaHeaderText = "Java設定"
+tabJavaHeaderDesc = "Javaの構成を管理する（高度な設定）。"
+memoryTitle = "メモリ"
+maxRAM = "最大RAM"
+minRAM = "最小RAM"
+memoryDesc = "推奨される最小RAMは3GBです。最小値と最大値を同じに設定すると、ラグを減らすことができます。"
+memoryTotalTitle = "合計"
+memoryAvailableTitle = "利用可能"
+javaExecutableTitle = "Java実行ファイル"
+javaExecSelDialogTitle = "Java実行ファイルを選択"
+javaExecSelButtonText = "ファイルを選択"
+javaExecDesc = "ゲームの起動前にJava実行ファイルが検証されます。"
+javaPathDesc = "パスは<strong>{pathSuffix}</strong>で終わる必要があります。"
+jvmOptsTitle = "追加のJVMオプション"
+jvmOptsDesc = "ランタイム時にJVMに提供されるオプション。<em>-Xms</em>と<em>-Xmx</em>は含めないでください。"
+launcherTabHeaderText = "ランチャー設定"
+launcherTabHeaderDesc = "ランチャー自体に関連するオプション。"
+changeLanguageTitle = "言語の変更"
+changeLanguageDesc = "言語を変更すると、変更内容を反映するためにランチャーを再起動する必要があります。"
+allowPrereleaseTitle = "プレリリースアップデートを許可する。"
+allowPrereleaseDesc = "プレリリースには、完全にテストまたは統合されていない新機能が含まれる場合があります。<br>プレリリースバージョンを使用している場合、これは常にtrueになります。"
+dataDirectoryTitle = "データディレクトリ"
+selectDataDirectory = "データディレクトリを選択"
+chooseFolder = "フォルダーを選択"
+dataDirectoryDesc = "すべてのゲームファイルとローカルJavaインストールはデータディレクトリに保存されます。<br>スクリーンショットとワールド保存は、対応するサーバー構成のインスタンスフォルダーに保存されます。"
+aboutTabHeaderText = "情報"
+aboutTabHeaderDesc = "現在のバージョンの情報とリリースノートを表示します。"
+aboutTitle = "{appName}"
+stableRelease = "安定版"
+versionText = "バージョン "
+sourceGithub = "ソース（GitHub）"
+support = "サポート"
+devToolsConsole = "DevToolsコンソール"
+releaseNotes = "リリースノート"
+changelog = "変更ログ"
+noReleaseNotes = "リリースノートなし"
+viewReleaseNotes = "リリースノートをGitHubで表示"
+launcherUpdatesHeaderText = "ランチャーアップデート"
+launcherUpdatesHeaderDesc = "ランチャーのアップデートをダウンロード、インストール、およびレビューします。"
+checkForUpdates = "アップデートを確認"
+whatsNew = "新機能"
+updateReleaseNotes = "アップデートリリースノート"
+
+[ejs.waiting]
+waitingText = "Microsoftを待っています.."
+
+[ejs.welcome]
+continueButton = "続行"
+
+[js.discord]
+waiting = "クライアントを待機中.."
+state = "サーバー: {shortId}"
+
+[js.index]
+microsoftLoginTitle = "Microsoft ログイン"
+microsoftLogoutTitle = "Microsoft ログアウト"
+
+[js.login]
+login = "ログイン"
+loggingIn = "ログイン中"
+success = "成功"
+tryAgain = "再試行"
+
+[js.login.error]
+invalidValue = "* 無効な値"
+requiredValue = "* 必須"
+
+[js.login.error.unknown]
+title = "ログイン中の未知のエラー"
+desc = "未知のエラーが発生しました。詳細はコンソールをご覧ください。"
+
+[js.landing.launch]
+pleaseWait = "お待ちください.."
+failureTitle = "起動中のエラー"
+failureText = "詳細はコンソール（CTRL + Shift + i）をご覧ください。"
+okay = "了解"
+
+[js.landing.selectedAccount]
+noAccountSelected = "アカウントが選択されていません"
+
+[js.landing.selectedServer]
+noSelection = "サーバーが選択されていません"
+loading = "読み込み中.."
+
+[js.landing.serverStatus]
+server = "サーバー"
+offline = "オフライン"
+players = "プレイヤー"
+
+[js.landing.systemScan]
+checking = "システム情報を確認中.."
+noCompatibleJava = "互換性のある<br>Javaインストールが見つかりません"
+installJavaMessage = "Minecraftを起動するには、Java {major} の64ビットインストールが必要です。インストールしますか？"
+installJava = "Javaをインストール"
+installJavaManually = "手動でインストール"
+javaDownloadPrepare = "Javaのダウンロードを準備中.."
+javaDownloadFailureTitle = "Javaダウンロード中のエラー"
+javaDownloadFailureText = "詳細はコンソール（CTRL + Shift + i）をご覧ください。"
+javaRequired = "Javaが必要です<br>起動するには"
+javaRequiredMessage = '起動するには有効なx64のJava {major}インストールが必要です。<br><br>手動でJavaをインストールする方法については、<a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java管理ガイド</a>をご覧ください。'
+javaRequiredDismiss = "了解しました"
+javaRequiredCancel = "戻る"
+
+[js.landing.downloadJava]
+findJdkFailure = "OpenJDKディストリビューションが見つかりませんでした。"
+javaDownloadCorruptedError = "ダウンロードしたJDKのハッシュが不正です。ファイルが破損している可能性があります。"
+extractingJava = "Javaを抽出中"
+javaInstalled = "Javaがインストールされました！"
+
+[js.landing.dlAsync]
+loadingServerInfo = "サーバー情報を読み込み中.."
+fatalError = "致命的なエラー"
+unableToLoadDistributionIndex = "ディストリビューションインデックスのコピーを読み込めませんでした。詳細はコンソール（CTRL + Shift + i）をご覧ください。"
+pleaseWait = "お待ちください.."
+errorDuringLaunchTitle = "起動中のエラー"
+seeConsoleForDetails = "詳細はコンソール（CTRL + Shift + i）をご覧ください。"
+validatingFileIntegrity = "ファイルの整合性を検証中.."
+errorDuringFileVerificationTitle = "ファイル検証中のエラー"
+downloadingFiles = "ファイルをダウンロード中.."
+errorDuringFileDownloadTitle = "ファイルダウンロード中のエラー"
+preparingToLaunch = "起動の準備中.."
+launchingGame = "ゲームを起動中.."
+launchWrapperNotDownloaded = "メインファイルLaunchWrapperが正常にダウンロードされませんでした。その結果、ゲームを起動できません。<br><br>この問題を解決するには、アンチウイルスソフトウェアを一時的にオフにしてゲームを再起動してください。<br><br>お時間があれば、<a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">問題を報告</a>し、使用しているアンチウイルスソフトウェアを教えてください。私たちが連絡を取り、問題を解決するよう努めます。"
+doneEnjoyServer = "完了。サーバーをお楽しみください！"
+checkConsoleForDetails = "詳細はコンソール（CTRL + Shift + i）をご覧ください。"
+
+[js.landing.news]
+checking = "ニュースを確認中"
+
+[js.landing.discord]
+loading = "ゲームを読み込み中.."
+joining = "ウェスタロスへ航行中！"
+joined = "王国を探検中！"
+
+[js.overlay]
+dismiss = "閉じる"
+
+[js.settings.fileSelectors]
+executables = "実行可能ファイル"
+allFiles = "すべてのファイル"
+
+[js.settings.mstfLogin]
+errorTitle = "エラーが発生しました"
+errorMessage = "Microsoft認証に失敗しました。再試行してください。"
+okButton = "OK"
+
+[js.settings.mstfLogout]
+errorTitle = "エラーが発生しました"
+errorMessage = "Microsoftログアウトに失敗しました。再試行してください。"
+okButton = "OK"
+
+[js.settings.authAccountSelect]
+selectButton = "アカウントを選択"
+selectedButton = "選択されたアカウント &#10004;"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "警告<br>これは最後のアカウントです"
+lastAccountWarningMessage = "ランチャーを使用するには、少なくとも1つのアカウントにログインしている必要があります。<br><br>ログアウトすると再度ログインする必要があります。本当にログアウトしますか？"
+confirmButton = "はい"
+cancelButton = "キャンセル"
+
+[js.settings.authAccountPopulate]
+username = "ユーザー名"
+uuid = "UUID"
+selectAccount = "アカウントを選択"
+selectedAccount = "選択されたアカウント ✓"
+logout = "ログアウト"
+
+[js.settings.dropinMods]
+removeButton = "削除"
+deleteFailedTitle = "削除に失敗しました<br>ドロップインMod {fullName}"
+deleteFailedMessage = "ファイルが使用中でないことを確認して、再試行してください。"
+failedToggleTitle = "切り替えに失敗しました<br>1つ以上のドロップインMod"
+okButton = "了解"
+
+[js.settings.serverListing]
+mainServer = "メインサーバー"
+
+[js.settings.java]
+selectedJava = "選択: Java {version} ({vendor})"
+invalidSelection = "無効な選択"
+requiresJava = "Java {major} x64が必要です。"
+availableOptions = "Java {major} の利用可能なオプション（HotSpot VM）"
+
+[js.settings.about]
+preReleaseTitle = "プレリリース"
+stableReleaseTitle = "安定版"
+releaseNotesFailed = "リリースノートの読み込みに失敗しました。"
+
+[js.settings.updates]
+newReleaseTitle = "新しいリリースが利用可能"
+newPreReleaseTitle = "新しいプレリリースが利用可能"
+downloadingButton = "ダウンロード中.."
+downloadButton = 'GitHubからダウンロード<span style="font-size: 10px;color: gray;text-shadow: none !important;">ランチャーを閉じて、dmgを実行してアップデートします。</span>'
+latestVersionTitle = "最新バージョンを使用中"
+checkForUpdatesButton = "アップデートを確認"
+checkingForUpdatesButton = "アップデートを確認中.."
+
+[js.settings.msftLogin]
+errorTitle = "Microsoftログインに失敗しました"
+errorMessage = "Microsoftアカウントを認証できませんでした。再試行してください。"
+okButton = "OK"
+
+[js.uibinder.startup]
+fatalErrorTitle = "致命的なエラー: ディストリビューションインデックスを読み込めません"
+fatalErrorMessage = "ディストリビューションインデックスをダウンロードするためにサーバーへの接続を確立できませんでした。ローカルコピーも読み込めませんでした。<br><br>ディストリビューションインデックスは最新のサーバー情報を提供するための重要なファイルです。ランチャーはこれなしで起動できません。インターネットに接続してアプリケーションを再起動してください。"
+closeButton = "閉じる"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "ログインの更新に失敗しました"
+failedMessage = "<strong>{account}</strong> のログインを更新できませんでした。他のアカウントを選択するか、再度ログインしてください。"
+failedMessageSelectAnotherAccount = "<strong>{account}</strong> のログインを更新できませんでした。再度ログインしてください。"
+loginButton = "ログイン"
+selectAnotherAccountButton = "別のアカウントを選択"
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "アップデートを確認中.."
+installNowButton = "今すぐインストール"
+checkForUpdatesButton = "アップデートを確認"
+
+[js.auth.microsoft.error]
+noProfileTitle = "ログイン中のエラー:<br>プロフィールが設定されていません"
+noProfileDesc = "MicrosoftアカウントにはまだMinecraftのプロフィールが設定されていません。最近ゲームを購入したか、Xbox Game Passを通じて引き換えた場合は、<a href=\"https://minecraft.net/\">Minecraft.net</a>でプロフィールを設定する必要があります。<br><br>まだゲームを購入していない場合は、<a href=\"https://minecraft.net/\">Minecraft.net</a>で購入できます。"
+noXboxAccountTitle = "ログイン中のエラー:<br>Xboxアカウントがありません"
+noXboxAccountDesc = "Microsoftアカウントに関連付けられたXboxアカウントがありません。"
+xblBannedTitle = "ログイン中のエラー:<br>Xbox Live利用不可"
+xblBannedDesc = "Microsoftアカウントの国ではXbox Liveが利用できないか、禁止されています。"
+under18Title = "ログイン中のエラー:<br>親の承認が必要です"
+under18Desc = "18歳未満のユーザーのアカウントは、大人がファミリーに追加する必要があります。"
+unknownTitle = "ログイン中の未知のエラー"
+unknownDesc = "未知のエラーが発生しました。詳細はコンソールをご覧ください。"
+
+[js.auth.mojang.error]
+methodNotAllowedTitle = "内部エラー:<br>許可されていないメソッド"
+methodNotAllowedDesc = "許可されていないメソッドです。このエラーを報告してください。"
+notFoundTitle = "内部エラー:<br>見つかりません"
+notFoundDesc = "認証エンドポイントが見つかりませんでした。この問題を報告してください。"
+accountMigratedTitle = "ログイン中のエラー:<br>アカウントが移行されました"
+accountMigratedDesc = "移行されたアカウントでログインを試みました。アカウントのメールアドレスをユーザー名として再度試してください。"
+invalidCredentialsTitle = "ログイン中のエラー:<br>無効な資格情報"
+invalidCredentialsDesc = "入力されたメールアドレスまたはパスワードが間違っています。再度試してください。"
+tooManyAttemptsTitle = "ログイン中のエラー:<br>試行回数が多すぎます"
+tooManyAttemptsDesc = "最近、このアカウントでのログイン試行が多すぎます。後でもう一度試してください。"
+invalidTokenTitle = "ログイン中のエラー:<br>無効なトークン"
+invalidTokenDesc = "提供されたアクセス・トークンが無効です。"
+tokenHasProfileTitle = "ログイン中のエラー:<br>トークンにプロフィールがあります"
+tokenHasProfileDesc = "アクセス・トークンにすでにプロフィールが割り当てられています。プロフィールの選択はまだ実装されていません。"
+credentialsMissingTitle = "ログイン中のエラー:<br>資格情報が不足しています"
+credentialsMissingDesc = "ユーザー名/パスワードが提出されていないか、パスワードが3文字未満です。"
+invalidSaltVersionTitle = "ログイン中のエラー:<br>無効なソルトバージョン"
+invalidSaltVersionDesc = "無効なソルトバージョンです。"
+unsupportedMediaTypeTitle = "内部エラー:<br>サポートされていないメディアタイプ"
+unsupportedMediaTypeDesc = "サポートされていないメディアタイプです。このエラーを報告してください。"
+accountGoneTitle = "ログイン中のエラー:<br>アカウントが移行されました"
+accountGoneDesc = "アカウントがMicrosoftアカウントに移行されました。Microsoftでログインしてください。"
+unreachableTitle = "ログイン中のエラー:<br>到達不能"
+unreachableDesc = "認証サーバーに到達できません。サーバーがオンラインであり、インターネットに接続されていることを確認してください。"
+gameNotPurchasedTitle = "ログイン中のエラー:<br>ゲームが購入されていません"
+gameNotPurchasedDesc = "ログインしようとしているアカウントでMinecraftのコピーが購入されていません。<a href=\"https://minecraft.net/\">Minecraft.net</a>で購入できます。"
+unknownErrorTitle = "ログイン中の未知のエラー"
+unknownErrorDesc = "未知のエラーが発生しました。詳細はコンソールをご覧ください。"

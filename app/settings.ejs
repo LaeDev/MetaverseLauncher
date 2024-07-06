@@ -276,6 +276,18 @@
             </div>
             <div class="settingsFieldContainer">
                 <div class="settingsFieldLeft">
+                    <span class="settingsFieldTitle"><%- lang('settings.changeLanguageTitle') %></span>
+                    <span class="settingsFieldDesc"><%- lang('settings.changeLanguageDesc') %></span>
+                </div>
+                <div class="settingsSelectContainer">
+                    <div class="settingsSelectSelected" id="settingsLangSelected"><%- lang('settings.selectLanguage') %></div>
+                    <div class="settingsSelectOptions" id="settingsLangsOptions" hidden>
+
+                    </div>
+                </div>
+            </div>
+            <div class="settingsFieldContainer">
+                <div class="settingsFieldLeft">
                     <span class="settingsFieldTitle"><%- lang('settings.allowPrereleaseTitle') %></span>
                     <span class="settingsFieldDesc"><%- lang('settings.allowPrereleaseDesc') %></span>
                 </div>
@@ -285,10 +297,6 @@
                         <span class="toggleSwitchSlider"></span>
                     </label>
                 </div>
-            </div>
-            <div class="settingsLanguageHeader">
-                <span class="settingsFieldTitle"><%- lang('settings.languageTabHeaderText') %></span>
-                <span class="settingsFieldDesc"><%- lang('settings.languageTabHeaderDesc') %></span>
             </div>
             <div class="settingsFileSelContainer">
                 <div class="settingsFileSelContent">
