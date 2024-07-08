@@ -49,6 +49,7 @@ accountSelectConfirm = "선택"
 accountSelectCancel = "취소"
 
 [ejs.settings]
+closeLauncherOnLaunch = "게임 실행 시 런처 닫기"
 navHeaderText = "설정"
 navAccount = "계정"
 navMinecraft = "마인크래프트"

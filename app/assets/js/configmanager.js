@@ -737,6 +737,25 @@ exports.setFullscreen = function(fullscreen){
 }
 
 /**
+ * Check if the launcher should be closed when the game is launched.
+ * 
+ * @param {boolean} def Optional. If true, the default value will be returned.
+ * @returns {boolean} Whether or not the launcher should be closed when the game is launched.
+ */
+exports.getCloseOnLaunch = function(def = true){
+    return !def ? config.settings.game.closeOnLaunch : DEFAULT_CONFIG.settings.game.closeOnLaunch
+}
+/**
+ * Change the status of if the launcher should be closed when the game is launched.
+ * 
+ * @param {boolean} closeOnLaunch Whether or not the launcher should be closed when the game is launched.
+ */
+exports.setCloseOnLaunch = function(closeOnLaunch){
+    config.settings.game.closeOnLaunch = closeOnLaunch
+}
+
+
+/**
  * Check if the game should auto connect to servers.
  * 
  * @param {boolean} def Optional. If true, the default value will be returned.

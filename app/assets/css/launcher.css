@@ -27,7 +27,14 @@
  * Element Styles                                                              *
  *                                                                             *
  ******************************************************************************/
-
+ *,
+ *::after,
+ *::before {
+     -webkit-user-select: none;
+     -webkit-user-drag: none;
+     -webkit-app-region: no-drag;
+ }
+ 
 /* Reset body, html, and div presets. */
 body, html, div {
     margin: 0px;
@@ -223,7 +230,6 @@ body, button {
     align-items: center;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.50);
 }
 
 #welcomeContent {
@@ -379,6 +385,7 @@ body, button {
 
 /* Main login container. */
 #loginContainer {
+    flex-direction: column;
     position: relative;
     display: flex;
     justify-content: center;
@@ -386,7 +393,6 @@ body, button {
     height: 100%;
     width: 100%;
     transition: filter 0.25s ease;
-    background: rgba(0, 0, 0, 0.50);
 }
 
 /* Login cancel button styles. */
@@ -435,7 +441,7 @@ body, button {
 /* The X in a circle icon for the cancel button. */
 #loginCancelIcon {
     border-radius: 50%;
-    border: 1px solid white;
+    border: 2px solid white;
     box-sizing: border-box;
     height: 30px;
     width: 30px;
@@ -461,11 +467,26 @@ body, button {
 }
 
 /* Login form. */
+.formlogoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 #loginForm {
+    height: 70vh;
+    width: 350px;
+    background-color: #04010a7d;
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#loginDiv {
+    margin: 10px;
 }
 
 /* Login form anchor styles. */
@@ -487,22 +508,21 @@ body, button {
 
 /* Logo on login form. */
 #loginImageSeal {
-    border-radius: 50%;
-    border: 2px solid #cad7e1;
-    background: rgba(1, 2, 1, 0.5);
-    height: 125px;
-    width: 125px;
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
-    margin-bottom: 20px;
+    margin-right: 25vh;
+    height: 300px;
+    width: 300px;
 }
 
 /* Header on login view. */
 #loginSubheader {
+    margin-top: 5vh;
     font-family: 'Avenir Medium';
-    margin-bottom: 25px;
-    font-size: 12px;
+    margin-bottom: 15vh;
+    font-size: 15px;
     letter-spacing: 1px;
     font-weight: bold;
+    position: relative;
+    top: 20px;
 }
 
 /* Container to organize login field elements. */
@@ -512,10 +532,12 @@ body, button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translateY(-20px);
 }
 
 /* SVG icons on the login view. */
 .loginSVG {
+    margin-bottom: 7px;
     fill: #fff;
     height: 20px;
     width: 20px;
@@ -598,15 +620,23 @@ body, button {
 
 /* Container which contains the forgot and remember options. */
 #loginOptions {
+    margin-top: 15px;
+    flex-direction: column;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-right: 20px;
+    transform: translateY(-20px);
 }
 
 /* Remember option text. */
 #loginRememberText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-right: 10px;
     transition: 0.25s ease;
+    transform: translateY(-20px);
 }
 
 /* Login button styles. */
@@ -619,8 +649,8 @@ body, button {
     margin: 10px 0px;
     cursor: pointer;
     position: relative;
-    right: -20px;
     transition: 0.5s ease;
+    transform: translateY(-30px);
 }
 #loginButton:disabled {
     color: rgba(255, 255, 255, 0.75);
@@ -663,7 +693,9 @@ body, button {
 
 #loginButtonContent {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 #loginButton .circle-loader,
@@ -774,6 +806,7 @@ body, button {
 
 /* Disclaimer container. */
 #loginDisclaimer {
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -787,10 +820,12 @@ body, button {
 
 /* Disclaimer text styles. */
 .loginDisclaimerText {
-    font-size: 7px;
+    font-size: 10px;
     color: #848484;
     font-weight: bold;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* * *
@@ -824,6 +859,7 @@ body, button {
     border-radius: 1px;
     background: none;
     transition: 0.25s ease;
+    transform: translateY(-20px);
 }
 /* On hover and focus, add a grey border color. */
 #checkmarkContainer:hover input ~ *,
@@ -1094,7 +1130,7 @@ body, button {
     justify-content: center;
 }
 #settingsNavHeaderText {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 /* Navigation items outer container. */
@@ -1222,11 +1258,11 @@ body, button {
     margin-bottom: 20px;
 }
 .settingsTabHeaderText {
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'Avenir Medium';
 }
 .settingsTabHeaderDesc {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /* Selected server content container */
@@ -1361,6 +1397,11 @@ body, button {
     border-radius: 50px;
     border: 1px solid rgba(126, 126, 126, 0.57);
 }
+input:disabled + .toggleSwitchSlider {
+    background-color: rgb(77, 77, 77);
+    /* box-shadow: inset 2px 1px 20px black; */
+    border: 1px solid rgb(30, 31, 30);
+}
 .toggleSwitchSlider:before {
     position: absolute;
     content: "";
@@ -1372,6 +1413,11 @@ body, button {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.75);
     border-radius: 50px;
     transition: .4s;
+}
+input:checked:disabled + .toggleSwitchSlider {
+    background-color: rgb(74, 95, 71);
+    /* box-shadow: inset 2px 1px 20px black; */
+    border: 1px solid rgb(74, 83, 72);
 }
 input:checked + .toggleSwitchSlider {
     background-color: rgb(31, 140, 11);
@@ -1480,7 +1526,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Description for the file selector. */
 .settingsFileSelDesc {
-    font-size: 10px;
+    font-size: 15px;
     margin: 20px 0px;
     color: lightgrey;
     width: 89%;
@@ -2070,7 +2116,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Description for memory management. */
 #settingsMemoryDesc {
-    font-size: 10px;
+    font-size: 15px;
     margin: 20px 0px;
     color: lightgrey;
     font-weight: bold;
@@ -2112,7 +2158,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Description for the JVM options setting. */
 #settingsJVMOptsDesc {
-    font-size: 10px;
+    font-size: 15px;
     margin: 20px 0px;
     color: lightgrey;
     font-weight: bold;
@@ -2863,7 +2909,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Style for a general label on the bottom of the landing view. */
 .bot_label {
-    font-size: 9px;
+    font-size: 15px;
     letter-spacing: 1px;
     font-weight: bold;
     text-shadow: 0px 0px 0px #bebcbb;
@@ -3019,7 +3065,7 @@ input:checked + .toggleSwitchSlider:before {
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 20px;
+    font-size: 30px;
     padding: 0px;
     transition: 0.25s ease;
     outline: none;
@@ -3036,6 +3082,73 @@ input:checked + .toggleSwitchSlider:before {
     color: #c7c7c7;
     cursor: default;
     pointer-events: none;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, rgba(210, 6, 54, 1) 0%, rgba(255, 255, 255, 1) 22%, rgba(64, 179, 62, 1) 50%, rgba(62, 168, 179, 1) 77%);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: #000;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    background: #000;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
 
 /* Launch details main container, hidden until launch processing begins. */
@@ -3564,23 +3677,96 @@ input:checked + .toggleSwitchSlider:before {
 }
 
 /* Rotating image for the spinner. */
-#loadSpinnerImage {
-    width: 280px;
-    height: auto;
-    z-index: 400;
-}
+.login-box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: .5s;
 
 /* Rotating animation for the spinner. */
-@keyframes rotating {
-    from {
-        transform: rotate(0deg);
+.login-box-span {
+    position: absolute;
+}
+
+.login-box span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #95d61c);
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
     }
-    to {
-        transform: rotate(360deg);
+    50%,
+    100% {
+        left: 100%;
     }
 }
 
-/* Class which is applied when the spinner image is spinning. */
-.rotating {
-    animation: rotating 10s linear infinite;
+.login-box span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #95d61c);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.login-box span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, transparent, #95d61c);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.login-box span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #95d61c);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
 }
