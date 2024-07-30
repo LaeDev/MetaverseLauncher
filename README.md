@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">Metaverse 디스코드 서버가 주최하는 모드 서버 런처입니다.</p>
-<p align="center">디스코드 들어가기(https://discord.gg/metaverse2023)</p>
+<p align="center">[디스코드 들어가기](https://discord.gg/metaverse2023)</p>
 
 [![](https://i.imgur.com/DiDIkVt.png)](https://github.com/LaeDev/MetaverseLauncher/releases/download/v1.0.4/Metaverse.Launcher-setup-1.0.4.exe)
 
