@@ -11,7 +11,7 @@
 
 # <p align="center"> [디스코드 들어가기](https://discord.gg/metaverse2023) </p>
 
-[![](https://i.imgur.com/DiDIkVt.png)](https://github.com/LaeDev/MetaverseLauncher/releases/download/v1.0.4/Metaverse.Launcher-setup-1.0.4.exe)
+[![](https://i.imgur.com/DiDIkVt.png)](https://github.com/LaeDev/MetaverseLauncher/releases/download/v1.0.5/Metaverse.Launcher-setup-1.0.5.exe)
 
 
 ![Screenshot 1](https://i.imgur.com/Gl8yTDJ.png)
